@@ -10906,7 +10906,7 @@
                 "format": "date-time-rfc1123"
               }
             },
-            "description": "A response containing the list of Compute Nodes.",
+            "description": "A response containing the list of extensions on Compute Nodes.",
             "schema": {
               "$ref": "#/definitions/NodeVMExtensionList"
             }
@@ -13944,13 +13944,11 @@
         "values": [
           {
             "value": "regional",
-            "description": "All nodes in the pool will be allocated in the same region.",
-            "name": "regional"
+            "description": "All nodes in the pool will be allocated in the same region."
           },
           {
             "value": "zonal",
-            "description": "Nodes in the pool will be spread across different availability zones with best effort balancing.",
-            "name": "zonal"
+            "description": "Nodes in the pool will be spread across different availability zones with best effort balancing."
           }
         ]
       }
@@ -14090,7 +14088,7 @@
         },
         "instanceView": {
           "$ref": "#/definitions/VMExtensionInstanceView",
-          "title": "The type of the extensions."
+          "title": "The virtual machine extension instance view."
         }
       },
       "title": "The configuration for virtual machine extension instance view."
